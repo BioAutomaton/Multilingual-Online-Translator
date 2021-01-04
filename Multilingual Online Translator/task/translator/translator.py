@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 
 def translate(request):
     """
-    Function parses BS4 request for translation and examples
-    and returns those items.
+    Parse BS4 request for translation and examples and return those items.
+
     :type request: BeautifulSoup.request
     :return: translation: list, examples: list of tuples
     """
